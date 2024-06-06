@@ -192,13 +192,35 @@ a txt file us given but its not txt file. when checked for the file type i came 
 i got pic <br>
 <img src=/xxx.png>
 <br>
+flag is <b>picoCTF{now_you_know_about_extensions}</b>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 
+# OSINT
+
+## Sakura Room
+
+this challenge was good but this challenge has become old. so there are so many fake accounts its difficult to
+conclude which social media account is correct
 
 
-
-
-
+### TIP-OFF
+<img src=/sakurapwnedletter.svg> <br>
+in the metadata we can find the source of the picture <br>
+<img src=/screenshot4.png>
 
 
 
