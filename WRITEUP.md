@@ -432,8 +432,80 @@ in hint section of wifi question a screenshot is given
 <img src=/pics/osintexercise006.webp>
 <br>
 all we have to do is <b>Fact Check </b> this news
-<br> by google searching for only car blast image we get this <a href=https://www.iraqinews.com/iraq-war/8-people-killed-wounded-bomb-blast-near-shops-south-baghdad/>artical</a> describing an attack in iran dated  <b>22nd October 2015</b> which is like 5year before this post was even posted
+<br> by google searching for only car blast image we get this <a href=https://www.iraqinews.com/iraq-war/8-people-killed-wounded-bomb-blast-near-shops-south-baghdad/>artical</a> describing an attack in iraq dated  <b>22nd October 2015</b> which is like 5year before this post was even posted
 <br>
 <img src=/pics/Screenshot15.png>
 thus this post by pakistan reporter is completely <b>False</b>
+
+
+
+<br>
+###  2. OSINT Exercise 4
+
+<img src=/pics/osintexercise004.webp>
+our objective is to find
+
+```
+a) What is the name of the resort?
+b) What are the coordinates of the island?
+c) In which cardinal direction was the camera facing when the photo was taken?
+
+
+
+```
+<br>
+by goggle searching we find the exact image in the page of resort named <a href=https://oanresort.wixsite.com/chuuk/about><b>Oan resort</b></a>
+<br>
+<img src=/pics/Screenshot16.png>
+<br>
+by searching for the Oan resort in google maps we find its present in <b>Oan island</b> and coordinate are
+
+```
+7.362306, 151.756096
+```
+
+### 3. OSINT Exercise 3
+our objective is
+
+```
+Your task is to find out the name and coordinates of the location seen below.
+```
+
+by seaching for this pic in google i found same persons pic standing at the same place (but in different angle) i ended up to this news <a href=https://www.atalayar.com/en/articulo/politics/somalia-erdogans-spearhead-east-africa/20200508113246145709.html> article </a>
+<br>
+<img src=/pics/Screenshot17.png>
+<br>
+
+
+
+in this screenshot below the photo you can see the name of the place as <b>Ankara Presidential Complex
+</b> ofcourse from question we already know its t=a picture in turkey
+by searching it in google map i got this result as only street view available
+
+
+
+<br>
+
+<img src=/pics/Screenshot18.png>
+<br>
+
+
+
+by comparing some other pics of the place i conclude its pic of same monument
+
+
+
+<br>
+<img src=/pics/Screenshot19.png>
+<br>
+i get these as coordinates
+
+```
+39.931549, 32.800966
+```
+
+
+
+
+
 
