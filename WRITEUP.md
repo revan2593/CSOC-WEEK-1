@@ -87,7 +87,72 @@ comlete one
 00000030   00 00 00 00  00 00 23 1A  17 27 1E 1B  29 20 1D 2A  ......#..'..) .*
 ```
 <p> i changed the height bits from <b>32 01 00 00 </b> to <b>32 03 00 00 </b></p>
-and got this 
-<img src=tunnel.png>
 
+and got this 
+<img src=tunnel.bmp>
+and the flag is <b>picoCTF{qu1t3_1_v13w_2020}</b>
+
+
+## MacroHard WeakEdge
+i was given with a ppt. in descriptiojn it was gievn <br> <b>I've hidden a flag in this file. Can you find it? Forensics is fun.pptm</b>
+its given they have hided the image thus i tried binwalk and i got them extracted <br>
+and i that extractedd files i got 0.zip. i unzipped them and saw something special. <br>
+
+<img src=/screenshot1.png>
+<br>
+you can see the last line there is file named hidden in the unzipped file <b> ppt/slideMasters/hidden</b> 
+<br>
+but i didnt observe this at first i started to explore the other files which was ofcourse waste of time
+once i opened hidden after so many exploration <br>
+ i saw some random strings in which each line is seperated by space.this string wasnt random string base64 encoded string of flag i decoded it with hekp of available online sites<br>
+and i got the flag <b>picoCTF{D1d_u_kn0w_ppts_r_z1p5}
+</b>
+
+
+
+## Enhance!
+i was given with this [pic](/drawing.flag.svg)
+<br> 
+i checcked the metadata and didnt find anything special
+<br> even the file format was correct 
+<br> i tried binwalk and it didnt have any files embedded
+<br> then i did strings and found flag in two parts
+
+<img src=/screenshot2.png>
+
+and the flag is <b>
+picoCTF{3nh4nc3d_d0a757bf}
+</b>
+
+## File types 
+its the most hectic question accpording to me i wasted so much time <br>
+but learnt different type of archieves. and the ways to unarchieving them.
+<br> i was given with a pdf  file but its not in correct form when i used file command i came to know its an shell script which produces a file named flag
+<br> while running this file i didnt have uudecode command in my system downloaded it using  sudo apt install sharutils
+<br>
+the command which was handy was <b>file</b>
+by this command i first checked for the file form and then renamed it using <b>mv </b>
+command i knew some of them like bzip tar lzip and others were unknown i searched in it for commands to unarchieve them
+finally you get file having filetype ASCII text which contains s tring 
+```shell
+7069636f4354467b66316c656e406d335f6d406e3170756c407431306e5f
+6630725f3062326375723137795f39353063346665657d0a
+```
+i at first  assumed its base64 encoded string but when decoded with base64 i got meaning less string then i again looked at the alphabets in the string all were digits betweeen 0-9 and alphabets from a-g then i tried to decode it assuming its base16 or  hex encided string 
+and finally got the flag <b>picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_950c4fee} </b>
+
+
+## hideme
+
+i am given with the following pic
+<img src=/flag.png>
+<br>
+the name of the challenge is hideme so i had gut feeling that some file is hidden in hit and i tried binwalk 
+and found 
+<img src=/screenshot3.png>
+it contains an image in directory named secret
+which intern had the flag
+<img src=/flag1.png>
+<b>picoCIF{Hiddinng_An_imag3_within_@n_image_dc2ab58f}
+ </b>
 
