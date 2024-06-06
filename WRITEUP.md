@@ -189,8 +189,9 @@ and i found the flag <b>picoCTF{15_y0ur_que57_qu1x071c_0r_h3r01c_572ad5fe}</b>
 ## Extension
 
 a txt file us given but its not txt file. when checked for the file type i came to know that its png file and then i changed the extension to png
-i got pic
-<img src=xxx.pmg>
+i got pic <br>
+<img src=/xxx.png>
+<br>
 
 
 
