@@ -1,5 +1,8 @@
 # Forensics
 they have given picoctf challenges as excercise for practise
+
+
+
 ## information
 [link for question](https://play.picoctf.org/practice/challenge/186?category=4&page=1)
 in hints section its given view the details of the [pic](/cat.jpg)
@@ -98,7 +101,7 @@ i was given with a ppt. in descriptiojn it was gievn <br> <b>I've hidden a flag 
 its given they have hided the image thus i tried binwalk and i got them extracted <br>
 and i that extractedd files i got 0.zip. i unzipped them and saw something special. <br>
 
-<img src=/screenshot1.png>
+<img src=/Screenshot1.png>
 <br>
 you can see the last line there is file named hidden in the unzipped file <b> ppt/slideMasters/hidden</b> 
 <br>
@@ -118,7 +121,7 @@ i checcked the metadata and didnt find anything special
 <br> i tried binwalk and it didnt have any files embedded
 <br> then i did strings and found flag in two parts
 
-<img src=/screenshot2.png>
+<img src=/Screenshot2.png>
 
 and the flag is <b>
 picoCTF{3nh4nc3d_d0a757bf}
@@ -144,15 +147,93 @@ and finally got the flag <b>picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_950c4fee
 
 ## hideme
 
-i am given with the following pic
+i am given with the following pic <br>
 <img src=/flag.png>
 <br>
 the name of the challenge is hideme so i had gut feeling that some file is hidden in hit and i tried binwalk 
 and found 
-<img src=/screenshot3.png>
+<img src=/Screenshot3.png>
 it contains an image in directory named secret
-which intern had the flag
+which intern had the flag <br>
 <img src=/flag1.png>
+<br>
 <b>picoCIF{Hiddinng_An_imag3_within_@n_image_dc2ab58f}
  </b>
+
+
+## MSB
+
+the name of the problem msb which is short form of the most significant bit. and discription says
+```shell
+This image passes LSB statistical analysis, but we can't help but think there must be something to the visual artifacts present in this image...
+``` 
+i already had the idea that a message can be encrypted by changing bits of an image
+<br> used <a href="https://github.com/Pulho/sigBits"> this tool </a>
+
+and i got complete paragarph and i tried searching for the word picoCTF using grep 
+```
+grep -o "picoCTF"
+```
+<br> and i found the phrase picoCTF exists in that 
+then i converted space into newline charcter using tr command  then grepped for the phrase "pico"
+<br>
+
+```
+cat outputSB.txt | tr " " "\n" | grep  "pico"
+```
+
+and i found the flag <b>picoCTF{15_y0ur_que57_qu1x071c_0r_h3r01c_572ad5fe}</b>
+
+
+
+## Extension
+
+a txt file us given but its not txt file. when checked for the file type i came to know that its png file and then i changed the extension to png
+i got pic
+<img src=xxx.pmg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
