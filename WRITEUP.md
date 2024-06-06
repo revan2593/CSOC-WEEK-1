@@ -237,7 +237,25 @@ its given we can find other accounts which go by same user name
 by <a href=https://github.com/sherlock-project/sherlock >sherlock tool<a> <br>
 i got its git account by that username hereis <a href=https://github.com/sakurasnowangelaiko>link</a>
 <br>
-then by google searching 
+then by google searching the username i came across the twitter account of the 
+[user](https://x.com/sakuraloveraiko?lang=en)
+<br>
+the twitter or x account has posted this <a href=https://x.com/SakuraLoverAiko/status/1355364359090757635>post</a> 
+<br>
+by which we can confirm user name of the hacker is Aiko Abe
+<br>
+when i explored complete git i didnt get any idea to find the email id of the hacker. 
+i searched the web how can i find the mail by using a git account of user
+<br>
+i came across this <a href=https://x.com/SakuraLoverAiko/status/1355364359090757635>post</a> 
+and found the mail id as <b>sakurasnowangel@users.noreply.github.com</b>
+but its not correct :(
+<br>
+<img src=/scrrenshot5.png>
+<br>
+i actually couldnt find email id mysef took help of the walkthrough of this room
+<br>
+then i came to knwo that by php public key we can derive the information about tbat user
 
 
 
