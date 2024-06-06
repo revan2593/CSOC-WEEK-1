@@ -67,9 +67,27 @@ the corrected version
 then when i opened corrected png file this image showed up <br>
 <img src=/new.png>
 
+whenni was going through last year csoc problems i have seen such problem over there which is solved by extending length and width <br>
+in that question also i saw that soorry{dig_more} was given in this problem notflag{sorry} is given
+i updated height adn width in hexedit then the new image that was shown is
 
+```shell
+this is incomplete one
+00000000   42 4D 8E 26  2C 00 00 00  00 00 BA D0  00 00 28 00  BM.&,.........(.
+00000010   00 00 6E 04  00 00 32 01  00 00 01 00  18 00 00 00  ..n...2.........
+00000020   00 00 58 26  2C 00 25 16  00 00 25 16  00 00 00 00  ..X&,.%...%.....
+00000030   00 00 00 00  00 00 23 1A  17 27 1E 1B  29 20 1D 2A  ......#..'..) .*
+```
 
-
-
+```shell
+comlete one
+00000000   42 4D 8E 26  2C 00 00 00  00 00 BA D0  00 00 28 00  BM.&,.........(.
+00000010   00 00 6E 04  00 00 32 03  00 00 01 00  18 00 00 00  ..n...2.........
+00000020   00 00 58 26  2C 00 25 16  00 00 25 16  00 00 00 00  ..X&,.%...%.....
+00000030   00 00 00 00  00 00 23 1A  17 27 1E 1B  29 20 1D 2A  ......#..'..) .*
+```
+<p> i changed the height bits from <b>32 01 00 00 </b> to <b>32 03 00 00 </b></p>
+and got this 
+<img src=tunnel.png>
 
 
