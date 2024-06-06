@@ -220,7 +220,25 @@ conclude which social media account is correct
 ### TIP-OFF
 <img src=/sakurapwnedletter.svg> <br>
 in the metadata we can find the source of the picture <br>
-<img src=/screenshot4.png>
+<img src=/Screenshot4.png>
+<br>
+in export-filename section you can find the path of th image 
+```
+/home/SakuraSnowAngelAiko/Desktop/pwnedletter.png
+```
+by this we can confirm the username of attacker goes by
+<b>SakuraSnowAngelAiko</b>
+
+
+### RECONNAISSANCE
+
+
+its given we can find other accounts which go by same user name
+by <a href=https://github.com/sherlock-project/sherlock >sherlock tool<a> <br>
+i got its git account by that username hereis <a href=https://github.com/sakurasnowangelaiko>link</a>
+<br>
+then by google searching 
+
 
 
 
