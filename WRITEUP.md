@@ -5,7 +5,10 @@ they have given picoctf challenges as excercise for practise
 
 ## information
 [link for question](https://play.picoctf.org/practice/challenge/186?category=4&page=1)
-in hints section its given view the details of the [pic](/cat.jpg)
+in hints section its given view the details of the [pic](/pics/cat.jpg)
+<br>
+<img src=/pics/cat.jpg>
+<br>
 
 so i looked for the metadata in the license section i saw something peculiar it seemed to be base64 encoded string
 i looked for some decoding websites online and myguess proved to be correct
@@ -16,7 +19,7 @@ flag:- picoCTF{the_m3tadata_1s_modified}
 
 
 ## Matryoshka Doll
-i was given with this doll [pic](/dolls.jpg)
+i was given with this doll [pic](/pics/dolls.jpg)
 
 in the hints its given that ~~~ Wait, you can hide files inside files? But how do you find them? ~~~
 * At first by binwalk i got to know there are files that can be extracted
@@ -68,7 +71,7 @@ the corrected version
 ```
 
 then when i opened corrected png file this image showed up <br>
-<img src=/new.png>
+<img src=/pics/new.png>
 
 whenni was going through last year csoc problems i have seen such problem over there which is solved by extending length and width <br>
 in that question also i saw that soorry{dig_more} was given in this problem notflag{sorry} is given
@@ -92,7 +95,7 @@ comlete one
 <p> i changed the height bits from <b>32 01 00 00 </b> to <b>32 03 00 00 </b></p>
 
 and got this 
-<img src=tunnel.bmp>
+<img src=/pics/tunnel.bmp>
 and the flag is <b>picoCTF{qu1t3_1_v13w_2020}</b>
 
 
@@ -101,7 +104,7 @@ i was given with a ppt. in descriptiojn it was gievn <br> <b>I've hidden a flag 
 its given they have hided the image thus i tried binwalk and i got them extracted <br>
 and i that extractedd files i got 0.zip. i unzipped them and saw something special. <br>
 
-<img src=/Screenshot1.png>
+<img src=/pics/Screenshot1.png>
 <br>
 you can see the last line there is file named hidden in the unzipped file <b> ppt/slideMasters/hidden</b> 
 <br>
@@ -114,14 +117,14 @@ and i got the flag <b>picoCTF{D1d_u_kn0w_ppts_r_z1p5}
 
 
 ## Enhance!
-i was given with this [pic](/drawing.flag.svg)
+i was given with this [pic](/pics/drawing.flag.svg)
 <br> 
 i checcked the metadata and didnt find anything special
 <br> even the file format was correct 
 <br> i tried binwalk and it didnt have any files embedded
 <br> then i did strings and found flag in two parts
 
-<img src=/Screenshot2.png>
+<img src=/pics/Screenshot2.png>
 
 and the flag is <b>
 picoCTF{3nh4nc3d_d0a757bf}
@@ -148,14 +151,14 @@ and finally got the flag <b>picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_950c4fee
 ## hideme
 
 i am given with the following pic <br>
-<img src=/flag.png>
+<img src=/pics/flag.png>
 <br>
 the name of the challenge is hideme so i had gut feeling that some file is hidden in hit and i tried binwalk 
 and found 
-<img src=/Screenshot3.png>
+<img src=/pics/Screenshot3.png>
 it contains an image in directory named secret
 which intern had the flag <br>
-<img src=/flag1.png>
+<img src=/pics/flag1.png>
 <br>
 <b>picoCIF{Hiddinng_An_imag3_within_@n_image_dc2ab58f}
  </b>
@@ -190,7 +193,7 @@ and i found the flag <b>picoCTF{15_y0ur_que57_qu1x071c_0r_h3r01c_572ad5fe}</b>
 
 a txt file us given but its not txt file. when checked for the file type i came to know that its png file and then i changed the extension to png
 i got pic <br>
-<img src=/xxx.png>
+<img src=/pics/xxx.png>
 <br>
 flag is <b>picoCTF{now_you_know_about_extensions}</b>
 
@@ -218,9 +221,9 @@ conclude which social media account is correct
 
 
 ### TIP-OFF
-<img src=/sakurapwnedletter.svg> <br>
+<img src=/pics/sakurapwnedletter.svg> <br>
 in the metadata we can find the source of the picture <br>
-<img src=/Screenshot4.png>
+<img src=/pics/Screenshot4.png>
 <br>
 in export-filename section you can find the path of th image 
 ```
@@ -251,11 +254,151 @@ i came across this <a href=https://x.com/SakuraLoverAiko/status/1355364359090757
 and found the mail id as <b>sakurasnowangel@users.noreply.github.com</b>
 but its not correct :(
 <br>
-<img src=/scrrenshot5.png>
+<img src=/pics/Screenshot5.png>
 <br>
 i actually couldnt find email id mysef took help of the walkthrough of this room
 <br>
-then i came to knwo that by php public key we can derive the information about tbat user
+then i came to know that by php public key we can derive the information about that and i fount this [site](https://8gwifi.org/pgpdump.jsp)
+<br>
+<img src=/pics/Screenshot6.png>
+<br>
+we found the mail id as
+<b>SakuraSnowAngel83@protonmail.com</b>
+<br>
+
+
+
+
+### UNVEIL
+by the git acount we got in depository we can find ETH depository
+<br>
+when seen edits made to this depository you find something interesting <br>
+
+<img src=/pics/Screenshot8.png>
+<br>'
+
+``` 
+
+What is the attacker's cryptocurrency wallet address?
+```
+we can see the crypto currency adress of the attacker <b>0xa102397dbeeBeFD8cD2F73A89122fCdB53abB6ef</b> <br> by googling this id we get thia
+<a href=https://etherscan.io/address/0xa102397dbeebefd8cd2f73a89122fcdb53abb6ef>website</a> <br> 
+<img src=/pics/Screenshot7.png> 
+<br>
+```
+What cryptocurrency does the attacker own a cryptocurrency wallet for?
+```
+ and at first the depository name is ETH which means <b>Ethereum</b>
+
+
+ ```
+What mining pool did the attacker receive payments from on January 23, 2021 UTC?
+```
+its again <b>Ethermine</b>
+<br>
+<img src=/pics/Screenshot9.png>
+<br>
+
+```
+What other cryptocurrency did the attacker exchange with using their cryptocurrency wallet?
+```
+<br>
+<img src=/pics/Screenshot10.png>
+<br>
+in this we can see its <b>Tether</b>
+
+### TAUNT
+
+```
+What is the attacker's current Twitter handle?
+```
+i already found her twitter handle username <b>SakuraLoverAiko</b>
+
+<br>
+
+<img src=/pics/Screenshot11.png>
+<br>
+
+### HOMEBOUND
+
+in her X handle i got some pics
+<br>
+<img src=/pics/Esh-uTvUcAc-sXC.jpeg>
+<br>
+this pic has the caption 
+```
+Checking out some last minute cherry blossoms before heading home!
+```
+
+in a pic she mentioned the place  ""Bethesda""
+<br>
+<img src=/pics/Screenshot13.jpg>
+<br>
+it means she was somewhere near this area before living to her home
+by googling this picture i came to know its washinngton 
+
+<br>
+<img src=/pics/Screenshot12.png>
+<br>
+short for of the sirport at washinton is <b>DCA</b>
+
+<br>
+next attacker posted this airport launge as
+
+```
+My final layover, time to relax!
+```
+<img src=/pics/EsiM12KVoAEhAsI.png>
+<br>
+
+when googled its launge of japan air lines at tokyo
+and short form for the airport at tokyo is <b> HND </b>
+
+<br>
+
+```
+What lake can be seen in the map shared by the attacker as they were on their final flight home?
+
+```
+
+she uploaded this map image <br>
+<img src=/pics/EsiNRuRU0AEH32u.jpeg>
+<br>
+
+ by this all research we came to know that is from japan by google map i searched and japan and tred to match the map with picture.
+ and i came to know its <b>Lake Inawashiro</b>
+
+ <img src=/pics/Screenshot14.png>
+
+
+```
+What city does the attacker likely consider "home"?
+```
+in hint section of wifi question a screenshot is given 
+<br>
+<img src=/pics/deeppaste.png>
+
+ <br>
+ in this city name is given as <b>Hirosaki</b>
+
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+<br>
+
+
+<br>
 
 
 
@@ -274,25 +417,23 @@ then i came to knwo that by php public key we can derive the information about t
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+2. https://gralhix.com/list-of-osint-exercises/ Go here and do these (preferably in the order):
+    1. OSINT Exercise 6
+    2. OSINT Exercise 4
+    3. OSINT Exercise 3
+    4. OSINT Exercise 14
+    5. OSINT Exercise 26
+```
 
  
+
+### 1. OSINT Exercise 6
+<img src=/pics/osintexercise006.webp>
+<br>
+all we have to do is <b>Fact Check </b> this news
+<br> by google searching for only car blast image we get this <a href=https://www.iraqinews.com/iraq-war/8-people-killed-wounded-bomb-blast-near-shops-south-baghdad/>artical</a> describing an attack in iran dated  <b>22nd October 2015</b> which is like 5year before this post was even posted
+<br>
+<img src=/pics/Screenshot15.png>
+thus this post by pakistan reporter is completely <b>False</b>
 
