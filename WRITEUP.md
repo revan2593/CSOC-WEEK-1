@@ -530,7 +530,15 @@ which mentioned the magnitude of earthquake was 5.8
 ### 5. OSINT Exercise 26
 
 
-
-
-
+i am given zip file which contains these four pics
+<img src=IMG_2597.jpg>
+<br>
+<img src=IMG_2626.jpg>
+<br>
+<img src=IMG_2658.jpg>
+<br>
+<img src=IMG_2747.jpg>
+<br>
+<video src=IMG_2677.MOV>
+</video>
 
