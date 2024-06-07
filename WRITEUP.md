@@ -559,5 +559,10 @@ when i checked other post of this account i got this in a reel
 <img src=/pics/screenshot1.png>
 <br>
 when searched for the place in background  i got results which said its a monument from the same city <b>Tashkent</b>
+i couldnt decode the train journey and picture four
+<br>
+i went through many writeups and walkthroughs and finally found the answers but i couldnt find by myself
+<br>
+
 
 
