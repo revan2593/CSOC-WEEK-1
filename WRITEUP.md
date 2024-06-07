@@ -506,6 +506,30 @@ i get these as coordinates
 ```
 
 
+<br>
+###  4. OSINT Exercise 14
+
+i was given with youtube video [link](https://youtu.be/myTG1LpMN7g)
+<br>
+i took scrrenshot of the image and started searching for the exact matches. in the given time stamp says its video of 24th october 2016. there werre many videos of the same clip uploaded in 2018 but one specific youtube video with fc barcelona dp showedup same video clip
+<br> [link here](https://www.youtube.com/watch?v=lvGpouFqmJ0)
+<br>
+there was nothing in video description but the name of the video was <b>
+Cutremur Chisinau 24.09.2016</b> which in english when translated <b>chisinau earthquake</b>
+<br>
+the title is in romanian language
+<br>
+i searched the same phrase <b>Cutremur Chisinau 24.09.2016</b>and i got a news article in romanian language 
+<br>
+[link here](https://www.moldpres.md/en/news/2016/09/24/16007583#)
+<br>
+<img src=/pics/Screenshot20.png>
+which mentioned the magnitude of earthquake was 5.8
+<br>i couldnt find coordinates so watchedd its walkthrough video 
+
+### 5. OSINT Exercise 26
+
+
 
 
 
