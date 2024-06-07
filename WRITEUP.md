@@ -531,14 +531,33 @@ which mentioned the magnitude of earthquake was 5.8
 
 
 i am given zip file which contains these four pics
-<img src=IMG_2597.jpg>
+<img src=/pics/IMG_2597.jpg>
 <br>
-<img src=IMG_2626.jpg>
+<img src=/pics/IMG_2626.jpg>
 <br>
-<img src=IMG_2658.jpg>
+<img src=/pics/IMG_2658.jpg>
 <br>
-<img src=IMG_2747.jpg>
+<img src=/pics/IMG_2747.jpg>
 <br>
-<video src=IMG_2677.MOV>
-</video>
+
+
+
+
+and this [video](/pics/IMG_2677.MOV)
+the sequnce of the name of the pics tells us the order of the pictures taken 
+by googling first pic i came to know its <b>Chorsu Bazaar</b> situated in city <b>Tashkent, the capital city of Uzbekistan.</b>
+<br>
+and the by googling next pic i came to know its <b>Anhor Lokomotiv</b> in same city
+i tried googling next pic but i couldnt get anything interesting but i confirmed its from the same city as when i searched for this pic in yandex 
+i got this 
+<br>
+<img src=/pics/screenshot.png>
+<br>
+i got this instagram account suggested [link](https://www.instagram.com/azajony.1/?hl=am-et)<br>
+when i checked other post of this account i got this in a reel
+<br>
+<img src=/pics/screenshot1.png>
+<br>
+when searched for the place in background  i got results which said its a monument from the same city <b>Tashkent</b>
+
 
