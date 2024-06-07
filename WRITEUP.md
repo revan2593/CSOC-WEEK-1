@@ -333,7 +333,7 @@ Checking out some last minute cherry blossoms before heading home!
 
 in a pic she mentioned the place  ""Bethesda""
 <br>
-<img src=/pics/Screenshot13.jpg>
+<img src=/pics/Screenshot13.png>
 <br>
 it means she was somewhere near this area before living to her home
 by googling this picture i came to know its washinngton 
