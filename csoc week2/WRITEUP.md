@@ -640,5 +640,5 @@ next strng is base64 encoded when decoded it gives **d1ff3r3n7_3nc**
 <br>
 last part was confusing i thought its ascii values but they arent when i observed them carefully all digits are lesser than 8 i guessed it as octal vslues it proved to be correct
 used this [website](https://www.dcode.fr/ascii-code)
-when decoded it gives **	0d1n65_l0l}**
+when decoded it gives **0d1n65_l0l}**
 total flag is **CSOC23{ju57_d1ff3r3n7_3nc0d1n65_l0l}**
