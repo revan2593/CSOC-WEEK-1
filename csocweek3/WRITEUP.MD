@@ -5,7 +5,7 @@ i dont have rpoper knowledge of web development i am trying to learn the things 
     it was pretty basic if you know sql injection.
 when i opened website in the support section i found this important information
 
-![img](/pics/screenshot1.png)
+![img](/pics/screenshot24.png)
 
 
 
